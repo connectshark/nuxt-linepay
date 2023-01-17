@@ -1,0 +1,16 @@
+{
+  "name": "nuxt-linepay",
+  "engines": {
+    "node": ">=18"
+  },
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "nuxt": "3.0.0"
+  }
+}

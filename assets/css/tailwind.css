@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-gray: 75 68 83;
+    --color-purple: 132 94 194;
+    --color-primary: var(--color-gray);
+    --color-button: var(--color-purple);
+  }
+}
+
+.min-h-h {
+  min-height: calc(100vh - 244px);
+}
